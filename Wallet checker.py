@@ -34,9 +34,9 @@ class MinerCode:
       print(f"\t\t\t       {Col.dark_red} Select your Option")
       try:
          c = int(input(f"""
-{Col.white}[{Col.dark_red}1{Col.white}]{Col.dark_red} BTC Wallet Miner
-{Col.white}[{Col.dark_red}2{Col.white}]{Col.dark_red} LTC Wallet Miner
-{Col.white}[{Col.dark_red}3{Col.white}]{Col.dark_red} Ethereum Wallet Miner
+{Col.white}[{Col.dark_red}1{Col.white}]{Col.dark_red} DOGECOIN WALLET MINER
+{Col.white}[{Col.dark_red}2{Col.white}]{Col.dark_red} BITCOIN WALLET MINER
+{Col.white}[{Col.dark_red}3{Col.white}]{Col.dark_red} ETHEREUM WALLET MINER
 {Col.white}>> """))
       except:os.system('cls');self.__init__()
       if c == 1:
